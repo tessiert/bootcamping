@@ -6,7 +6,6 @@ import Footer from './components/Footer.js';
 import CampsitesDirectoryPage from './pages/CampsitesDirectoryPage.js';
 import CampsiteDetailPage from './pages/CampsiteDetailPage';
 import AboutPage from './pages/AboutPage';
-import SubHeader from './components/SubHeader';
 import './App.css';
 
 function App() {

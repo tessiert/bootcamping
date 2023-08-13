@@ -5,7 +5,7 @@ const Footer = () => {
         <footer className='site-footer'>
             <Container>
                 <Row>
-                    <Col xs={{ size: 4, offset: 1 }} sm='2'>
+                    <Col xs={{ size: 4, offset: 1 }} sm='3' md='3' className='text-center'>
                         <h5>Links</h5>
                         <ul className='list-unstyled'>
                             <li>
@@ -22,34 +22,38 @@ const Footer = () => {
                             </li>
                         </ul>
                     </Col>
-                    <Col xs='6' sm='3' className='text-center'>
+                    <Col xs='6' sm='3' md='4' className='text-center'>
                         <h5>Social</h5>
                         <a
                             className='btn btn-social-icon btn-instagram'
-                            href='http://instagram.com/'
+                            href='http://instagram.com/' target='_blank'
+                            rel="noreferrer"
                         >
                             <i className='fa fa-instagram' />
                         </a>{' '}
                         <a
                             className='btn btn-social-icon btn-facebook'
-                            href='http://www.facebook.com/'
+                            href='http://www.facebook.com/' target='_blank'
+                            rel="noreferrer"
                         >
                             <i className='fa fa-facebook' />
                         </a>{' '}
                         <a
                             className='btn btn-social-icon btn-twitter'
-                            href='http://twitter.com/'
+                            href='http://twitter.com/' target='_blank'
+                            rel="noreferrer"
                         >
                             <i className='fa fa-twitter' />
                         </a>{' '}
                         <a
                             className='btn btn-social-icon btn-google'
-                            href='http://youtube.com/'
+                            href='http://youtube.com/' target='_blank'
+                            rel="noreferrer"
                         >
                             <i className='fa fa-youtube' />
                         </a>
                     </Col>
-                    <Col sm='4' className='text-center'>
+                    <Col sm='5' md='4' className='text-center'>
                         <a
                             role='button'
                             className='btn btn-link'
@@ -61,9 +65,9 @@ const Footer = () => {
                         <a
                             role='button'
                             className='btn btn-link'
-                            href='mailto:notreal@notreal.co'
+                            href='mailto:notreal@notreal.com'
                         >
-                            <i className='fa fa-envelope-o' /> campsites@nucamp.co
+                            <i className='fa fa-envelope-o' /> info@BootCamping.com
                         </a>
                     </Col>
                 </Row>
