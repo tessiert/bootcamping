@@ -15,7 +15,11 @@ h3,
 }
 
 h2 {
-    color: #3046c5;
+    color: saddlebrown;
+}
+
+a {
+    color: green !important; 
 }
 
 .card-img-overlay .card-title {
@@ -35,6 +39,10 @@ h2 {
     margin-top: 2rem;
 }
 
+.btn-social-icon {
+    color: white !important;
+}
+
 .navbar-brand {
     max-width: 4rem;
     margin-right: 2rem;
@@ -48,10 +56,13 @@ h2 {
 }
 
 .navbar-dark {
-    background-color: #81ad1c;
-    background-image: linear-gradient(to right, #5637dd, #3046c5, #510e5a);
+    background-image: url("./app/assets/img/forest_banner.jpg");
     margin-bottom: 2rem;
     min-height: 8rem;
+}
+
+.nav-link {
+    color: rgb(31, 30, 30) !important;
 }
 
 .page-enter {
