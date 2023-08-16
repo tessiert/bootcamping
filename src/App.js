@@ -1,11 +1,11 @@
 import { Routes, Route } from 'react-router-dom';
+import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import HomePage from './pages/HomePage';
 import Header from './components/Header.js';
 import Footer from './components/Footer.js';
 import CampsitesDirectoryPage from './pages/CampsitesDirectoryPage.js';
 import CampsiteDetailPage from './pages/CampsiteDetailPage';
-import AboutPage from './pages/AboutPage';
 import './App.css';
 // import './index.css';
 

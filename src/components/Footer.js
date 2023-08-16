@@ -57,9 +57,9 @@ const Footer = () => {
                         <a
                             role='button'
                             className='btn btn-link'
-                            href='tel:+12065551234'
+                            href='tel:+18605551234'
                         >
-                            <i className='fa fa-phone' /> 1-206-555-1234
+                            <i className='fa fa-phone' /> 1-860-555-1234
                         </a>
                         <br />
                         <a
